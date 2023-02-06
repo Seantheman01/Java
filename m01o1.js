@@ -3,7 +3,9 @@ let uitleg = "In een parkeergarage passen 80 auto's op de begane grond en 120 op
 
 alert(uitleg);
 let gewenste_aantal_autos = prompt("Hoeveel autos wilt u kwijt in de parkeergarage?");
-
+if (gewenste_aantal_autos > 80) {
+    
+}
 
 let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
 document.getElementById("antwoord").innerText = antwoord;
