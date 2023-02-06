@@ -16,8 +16,5 @@ if (gewenste_aantal_autos > 0){
 
 console.log(aantal_verdiepingen)
 
-let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
+let antwoord = "Om het gewenste aantal autos kwijt te kunnen heb je " + aantal_verdiepingen + " verdiepingen nodig."
 document.getElementById("antwoord").innerText = antwoord;
-
-let aantal = "Om het gewenste aantal autos kwijt te kunnen heb je " + aantal_verdiepingen + " verdiepingen nodig."
-document.getElementById("antwoord").innerText = aantal;
