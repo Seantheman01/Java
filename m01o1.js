@@ -3,7 +3,7 @@ let uitleg = "In een parkeergarage passen 80 auto's op de begane grond en 120 op
 
 alert(uitleg);
 let gewenste_aantal_autos = prompt("Hoeveel autos wilt u kwijt in de parkeergarage?");
-80 * 120 / gewenste_aantal_autos
+
 
 let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
 document.getElementById("antwoord").innerText = antwoord;
