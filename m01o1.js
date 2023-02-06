@@ -1,4 +1,4 @@
-beganeGrond = 80
+begane_grond = 80
 verdiepingen = 120
 
 let uitleg = "In een parkeergarage passen 80 auto's op de begane grond en 120 op een verdieping.\n"+
@@ -9,10 +9,12 @@ let gewenste_aantal_autos = parseInt(prompt("Hoeveel autos wilt u kwijt in de pa
 
 console.log(gewenste_aantal_autos)
 let aantal_verdiepingen = 1
-gewenste_aantal_autos -= beganeGrond
+gewenste_aantal_autos -= begane_grond
 if (gewenste_aantal_autos > 0){
-    aantal_verdiepingen += parseInt(gewenste_aantal_autos / verdiepingen)
+    aantal_verdiepingen += gewenste_aantal_autos / verdiepingen
 }
+
+console.log(aantal_verdiepingen)
 
 let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
 document.getElementById("antwoord").innerText = antwoord;
