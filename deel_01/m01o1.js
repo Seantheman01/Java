@@ -19,4 +19,5 @@ console.log(aantal_verdiepingen)
 let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
 document.getElementById("antwoord").innerText = antwoord;
 
-console.log("Om het gewenste aantal autos kwijt te kunnen heb ik x verdiepingen nodig.")
+let aantal = "Om het gewenste aantal autos kwijt te kunnen heb je " + aantal_verdiepingen + " verdiepingen nodig."
+document.getElementById("antwoord").innerText = aantal;
