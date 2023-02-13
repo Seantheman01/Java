@@ -6,6 +6,6 @@ function handleLogin(){
     if (naam_ingelogd === ""){
         naam_ingelogd = naam;
         console.log("U bent ingelogd: " + naam);
-        document.getElementById("unputNaam").value = "";
+        document.getElementById("inputNaam").value = "";
     }
 }
