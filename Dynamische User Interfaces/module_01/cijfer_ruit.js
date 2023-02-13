@@ -1,1 +1,0 @@
-let nummer = 1;
