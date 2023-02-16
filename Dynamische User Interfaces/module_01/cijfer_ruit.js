@@ -1,1 +1,1 @@
-getal = input("Typ een getal in: ")
+getal = parseInt(input("Typ een getal in: "))
