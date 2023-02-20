@@ -10,7 +10,6 @@ function handleLogin(){
     console.log("U bent ingelogd: " + naam);
     document.getElementById("inputNaam").value = "";
     document.getElementById('melding').innerText = 'Gelukt!';
-
 }
 
 document.getElementById("inlogButton").onclick = handleLogin;
