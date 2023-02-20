@@ -16,7 +16,7 @@ function handleLogin(){
 
     } else{
         loggedIn.push(naam);
-        console.log("U bent ingelogd.");
+        console.log("U bent ingelogd: " + naam);
         document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
     }
 
