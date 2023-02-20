@@ -6,3 +6,4 @@ for (let x=1; x == getal; x++) {
         ruit += "-";
     }
 }
+
