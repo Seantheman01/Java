@@ -7,11 +7,12 @@ function handleLogin(){
     if (loggedIn.includes(naam)){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U bent uitgelogd: " + naam);
+        document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
+        document.getElementById("inputNaam").value = "";
     }
 
     console.log(loggedIn)
     // console.log("U bent ingelogd: " + naam);
-    // document.getElementById("inputNaam").value = "";
     // document.getElementById('melding').innerText = 'Gelukt!';
 }
 
