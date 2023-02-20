@@ -4,6 +4,7 @@ function handleLogin(){
     let naam = document.getElementById("inputNaam").value;
     console.log("U hebt op de knop geklikt!");
     if (loggedIn.includes(naam)){
+        loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U zit al in de lijst: " + naam);
     }
 
