@@ -1,4 +1,4 @@
-let loggedIn = ["Sean"];
+let loggedIn = ["Sean", "sean"];
 
 function handleLogin(){
     console.log(loggedIn)
@@ -8,10 +8,15 @@ function handleLogin(){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U bent uitgelogd: " + naam);
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
-        document.getElementById("inputNaam").value = "";
+        
+    } else{
+        loggedIn.push(naam);
+        console.log("U bent ingelogd");
+        document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
     }
 
-    console.log(loggedIn)
+    document.getElementById("inputNaam").value = "";
+    console.log(loggedIn);
     // console.log("U bent ingelogd: " + naam);
     // document.getElementById('melding').innerText = 'Gelukt!';
 }
