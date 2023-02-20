@@ -1,10 +1,10 @@
-let loggedIn = "";
+let loggedIn = ["Sean"];
 
 function handleLogin(){
     let naam = document.getElementById("inputNaam").value;
     console.log("U hebt op de knop geklikt!");
-    if (naam in loggedIn){
-        console.log("U zit al in de lijst.");
+    if (loggedIn.includes(naam)){
+        console.log("U zit al in de lijst: " + naam);
     }
 
     console.log("U bent ingelogd: " + naam);
