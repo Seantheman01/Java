@@ -1,4 +1,3 @@
-// opdracht 1:
 let giraf_aantal = parseInt(prompt("Hoeveel giraffen zijn er?"));
 let struisvogel_aantal = parseInt(prompt("Hoeveel struisvogels zijn er?"));
 let zebra_aantal = parseInt(prompt("Hoeveel zebra's zijn er?"));
