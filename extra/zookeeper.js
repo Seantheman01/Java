@@ -1,9 +1,11 @@
 // opdracht 1:
-let giraffen = prompt("Hoeveel giraffen zijn er?");
-let struisvogels = prompt("Hoeveel struisvogels zijn er?");
-let zebras = prompt("Hoeveel zebra's zijn er?");
+let giraffen = parseInt(prompt("Hoeveel giraffen zijn er?"));
+let struisvogels = parseInt(prompt("Hoeveel struisvogels zijn er?"));
+let zebras = parseInt(prompt("Hoeveel zebra's zijn er?"));
+console.log(giraffen, struisvogel, zebras)
 
-function mijn_functie(giraffen, struisvogel, zebras) {
-    return giraffen * struisvogel * zebras;
-}
-console.getElementById('poten') = mijn_functie;
+let aantal = giraffen * struisvogel * zebras
+console.log(aantal)
+
+// let antwoord = "Er zijn" + aantal + " poten."
+// document.getElementById("poten").innerText = antwoord;
