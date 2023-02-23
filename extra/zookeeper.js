@@ -1,6 +1,7 @@
 // opdracht 1:
-let x = mijn_functie(4,2,4);
+let poten = prompt("Hoeveel poten zijn er?");
 
-function mijn_functie(giraffen, struisvogels, zebras) {
-    return mijn_functie
+function mijn_functie(giraffen, struisvogel, zebras) {
+    return (4,2,4);
 }
+document.getElementById('poten') = mijn_functie
