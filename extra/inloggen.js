@@ -1,4 +1,7 @@
 let loggedIn = [];
+function getIndexOfElementByName(lijst, naam){
+    return - 1
+}
 
 function handleLogin(){
     console.log(loggedIn);
@@ -9,8 +12,9 @@ function handleLogin(){
         alert("Voer een naam in!")
         return
     }
-
     console.log("U hebt op de knop geklikt.");
+
+    let positie = getIndexOfElementByName(loggedIn, naam);
     if (loggedIn.includes(naam)){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U bent uitgelogd: " + naam);
