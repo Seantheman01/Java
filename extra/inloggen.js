@@ -1,7 +1,8 @@
 let loggedIn = ["Sean", "sean"];
 
 function handleLogin(){
-    console.log(loggedIn)
+    console.log(loggedIn);
+
     let naam = document.getElementById("inputNaam").value;
     if (naam.length <= 0){
         alert("Voer een naam in!")
