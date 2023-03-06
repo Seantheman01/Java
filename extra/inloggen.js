@@ -2,6 +2,7 @@ let loggedIn = ["Sean", "sean"];
 
 function handleLogin(){
     console.log(loggedIn);
+    console.log(Date())
 
     let naam = document.getElementById("inputNaam").value;
     if (naam.length <= 0){
