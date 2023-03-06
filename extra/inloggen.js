@@ -1,6 +1,6 @@
 let loggedIn = [];
 function getIndexOfElementByName(lijst, naam){
-    return - 1
+    return -1;
 }
 
 function handleLogin(){
