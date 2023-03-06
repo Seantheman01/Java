@@ -17,7 +17,7 @@ function handleLogin(){
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
 
     } else{
-        loggedIn.push({'naam': naam, 'moment': new Date()});
+        loggedIn.push({'naam': naam, 'tijd': new Date()});
         console.log("U bent ingelogd: " + naam);
         document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
     }
