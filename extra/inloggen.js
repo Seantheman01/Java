@@ -1,4 +1,4 @@
-let loggedIn = ["Sean", "sean"];
+let loggedIn = [];
 
 function handleLogin(){
     console.log(loggedIn);
