@@ -1,1 +1,2 @@
-bestelling = prompt("Wat wilt u bestellen? ")
+let bestelling = new Object();
+bestelling['drank'] = 'fris'
