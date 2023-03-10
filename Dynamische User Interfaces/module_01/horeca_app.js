@@ -9,4 +9,4 @@ bestel_lijst.push(nieuw);
 bestelling.push({'drank': 'bier', 'aantal': 3});
 bestelling[1]['aantal'] += 3;
 
-console.log(bestelling)
+console.log(bestelling);
