@@ -19,7 +19,7 @@ function handleLogin(){
     }
     console.log("U hebt op de knop geklikt.");
 
-    let positie = getIndexOfElementByName(loggedIn, naam);
+    const positie = getIndexOfElementByName(loggedIn, naam);
     if (positie > -1){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U bent uitgelogd: " + naam);
