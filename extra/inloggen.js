@@ -33,8 +33,6 @@ function handleLogin(){
 
     document.getElementById("inputNaam").value = "";
     console.log(loggedIn);
-    // console.log("U bent ingelogd: " + naam);
-    // document.getElementById('melding').innerText = 'Gelukt!';
 }
 
 document.getElementById("button").onclick = handleLogin;
