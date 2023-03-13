@@ -5,7 +5,7 @@ function getIndexOfElementByName(lijst, naam){
             return x;
         }
     }
-    return -1;
+    return null;
 }
 
 function handleLogin(){
@@ -20,7 +20,7 @@ function handleLogin(){
     console.log("U hebt op de knop geklikt.");
 
     const positie = getIndexOfElementByName(loggedIn, naam);
-    if (positie > -1){
+    if (positie !== null){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
         console.log("U bent uitgelogd: " + naam);
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
