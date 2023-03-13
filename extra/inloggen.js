@@ -1,11 +1,12 @@
 let loggedIn = [];
 
 function getString(datum1, datum2){
-    let verschil = 'Gewerkt: ';
-    const seconden = (datum1 - datum2) / 1000;
+    let seconden = (datum1 - datum2) / 1000;
     if (seconden > 60){
-        verschil += Math.floor(seconden / 60);
+        const minuten = Math.floor(seconden / 60);
     }
+    seconden -= verschil * 60;
+    return 'Gewerkt:' + minuten + 'minuten' + seconden + 'seconden';
 }
 
 function getIndexOfElementByName(lijst, naam){
