@@ -37,12 +37,12 @@ function handleLogin(){
     
         loggedIn.splice(positie, 1);
         console.log("Uitgelogd");
-        document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
+        document.getElementById('melding').innerText = "U bent uitgelogd: " + naam + getString(newDate, oldDate);
 
     } else{
         loggedIn.push({'naam': naam, 'tijd': new Date()});
         console.log("Ingelogd");
-        document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
+        document.getElementById('melding').innerText = "U bent ingelogd: " + naam + getString(newDate, oldDate);
     }
 
     document.getElementById("inputNaam").value = "";
