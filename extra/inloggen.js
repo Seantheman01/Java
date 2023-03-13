@@ -10,7 +10,7 @@ function handleLogin(){
     let naam = document.getElementById("inputNaam").value;
     if (naam.length <= 0){
         alert("Voer een naam in!")
-        return
+        return;
     }
     console.log("U hebt op de knop geklikt.");
 
