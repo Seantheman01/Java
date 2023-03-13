@@ -21,13 +21,14 @@ function handleLogin(){
 
     const positie = getIndexOfElementByName(loggedIn, naam);
     if (positie !== null){
-        loggedIn.splice(loggedIn.indexOf(naam), 1)
-        console.log("U bent uitgelogd");
+        console.log()
+        loggedIn.splice(positie, 1)
+        console.log("Uitgelogd");
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
 
     } else{
         loggedIn.push({'naam': naam, 'tijd': new Date()});
-        console.log("U bent ingelogd");
+        console.log("Ingelogd");
         document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
     }
 
