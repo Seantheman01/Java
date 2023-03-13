@@ -2,6 +2,7 @@ let bestel_lijst = [];
 let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn: ");
 
 
+
 // let nieuw = new Object();
 // bestelling['drank'] = 'fris';
 // bestelling['aantal'] = 3;
