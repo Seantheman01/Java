@@ -22,12 +22,12 @@ function handleLogin(){
     const positie = getIndexOfElementByName(loggedIn, naam);
     if (positie !== null){
         loggedIn.splice(loggedIn.indexOf(naam), 1)
-        console.log("U bent uitgelogd: " + naam);
+        console.log("U bent uitgelogd");
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
 
     } else{
         loggedIn.push({'naam': naam, 'tijd': new Date()});
-        console.log("U bent ingelogd: " + naam);
+        console.log("U bent ingelogd");
         document.getElementById('melding').innerText = "U bent ingelogd: " + naam;
     }
 
