@@ -10,11 +10,11 @@ function getIndexOfElementByName(lijst, naam){
 
 function handleLogin(){
     console.log(loggedIn);
-    console.log(Date())
+    console.log(Date());
 
     let naam = document.getElementById("inputNaam").value;
     if (naam.length <= 0){
-        alert("Voer een naam in!")
+        alert("Voer een naam in!");
         return;
     }
     console.log("U hebt op de knop geklikt.");
@@ -23,7 +23,7 @@ function handleLogin(){
     if (positie !== null){
         const oldDate = loggedIn[positie]['tijd']
         const newDate = new Date();
-        loggedIn.splice(positie, 1)
+        loggedIn.splice(positie, 1);
         console.log("Uitgelogd");
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
 
