@@ -1,4 +1,13 @@
 let loggedIn = [];
+
+function getString(datum1, datum2){
+    let verschil = 'Gewerkt: ';
+    const seconden = (datum1 - datum2) / 1000;
+    if (seconden > 60){
+        verschil += Math.floor(seconden / 60);
+    }
+}
+
 function getIndexOfElementByName(lijst, naam){
     for(let x = 0; x < lijst.length; x++){
         if(lijst[x]['naam'] === naam){
