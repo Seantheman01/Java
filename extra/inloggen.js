@@ -23,6 +23,8 @@ function handleLogin(){
     if (positie !== null){
         const oldDate = loggedIn[positie]['tijd']
         const newDate = new Date();
+        const verschil = newDate - oldDate / 1000;
+    
         loggedIn.splice(positie, 1);
         console.log("Uitgelogd");
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
