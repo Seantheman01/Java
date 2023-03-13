@@ -1,6 +1,8 @@
 let bestel_lijst = [];
-let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn: ");
-
+let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
+    if (drankjes != 'fris' || drankjes != 'bier' || drankjes != 'wijn'){
+        
+}
 let aantal = parseInt(prompt("Hoeveel" + drankjes + "wilt u hebben?"))
 
 
