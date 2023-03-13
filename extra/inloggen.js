@@ -2,7 +2,7 @@ let loggedIn = [];
 function getIndexOfElementByName(lijst, naam){
     for(let x = 0; x < lijst.length; x++){
         if(lijst[x]['naam'] === naam){
-            
+            return x;
         }
     }
     return -1;
