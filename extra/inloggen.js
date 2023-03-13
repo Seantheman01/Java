@@ -1,7 +1,9 @@
 let loggedIn = [];
 function getIndexOfElementByName(lijst, naam){
     for(let x = 0; x < lijst.length; x++){
-        console.log(x);
+        if(lijst[x]['naam'] === naam){
+            
+        }
     }
     return -1;
 }
@@ -35,4 +37,4 @@ function handleLogin(){
     // document.getElementById('melding').innerText = 'Gelukt!';
 }
 
-document.getElementById("inlogButton").onclick = handleLogin;
+document.getElementById("button").onclick = handleLogin;
