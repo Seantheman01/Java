@@ -1,7 +1,7 @@
 let loggedIn = [];
 
 function getString(datum1, datum2){
-    let seconden = (datum1 - datum2) / 1000;
+    let seconden = Math.ceil((datum1 - datum2) / 1000);
     let minuten = 0;
     if (seconden > 60){
         minuten = Math.floor(seconden / 60);
