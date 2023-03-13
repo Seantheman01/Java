@@ -1,5 +1,8 @@
 let loggedIn = [];
 function getIndexOfElementByName(lijst, naam){
+    for(let x = 0; x < lijst.length; x++){
+        console.log(x);
+    }
     return -1;
 }
 
