@@ -21,7 +21,8 @@ function handleLogin(){
 
     const positie = getIndexOfElementByName(loggedIn, naam);
     if (positie !== null){
-        console.log()
+        const oldDate = loggedIn[positie]['tijd']
+        const newDate = new Date();
         loggedIn.splice(positie, 1)
         console.log("Uitgelogd");
         document.getElementById('melding').innerText = "U bent uitgelogd: " + naam;
