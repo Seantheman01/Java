@@ -1,10 +1,5 @@
 bestel_lijst = [];
 let kladblaadje = new Object();
-const bestelling = {
-    'fris': 0.99,
-    'bier': 1.99,
-    'wijn': 2.99
-};
 
 while(true){
 let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
@@ -14,7 +9,7 @@ let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 's
 
         kladblaadje['drankjes'] = drankjes
         kladblaadje['aantal'] = aantal
-        kladblaadje['prijs'] = bestelling
+        kladblaadje['prijs'] = 2.99
         console.log(kladblaadje)
     }
 
