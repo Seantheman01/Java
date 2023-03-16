@@ -18,7 +18,7 @@ let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 's
 
     }
     else {
-        alert("Kies uit: fris, bier of wijn, alstublieft.")
+        alert("Kies uit fris, bier of wijn, alstublieft.")
     }
 }
 alert("Dank u wel voor uw bestelling!")
