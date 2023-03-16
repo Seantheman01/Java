@@ -8,7 +8,7 @@ let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 's
         let aantal = parseInt(prompt("Hoeveel " + drankjes + " wilt u hebben?"));
         bestel_lijst.push(drankjes);
 
-        kladblaadje['drankjes'] = drankjes;
+        kladblaadje['drankjes'] = bestel_lijst;
         kladblaadje['aantal'] = aantal;
         kladblaadje['prijs'] = 2.99;
         console.log(kladblaadje);
