@@ -1,19 +1,23 @@
-bestel_lijst = [];
+bestel_lijst = [
+    {drankjes: 'fris', prijs: 2.99},
+    {drankjes: 'bier', prijs: 2.99},
+    {drankjes: 'wijn', prijs: 2.99}
+];
 let bonnetje = new Object();
 
 while(true){
-let drankjes = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
+let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
 
-    if (drankjes == 'fris' || drankjes == 'bier' || drankjes == 'wijn'){
-        let aantal = parseInt(prompt("Hoeveel " + drankjes + " wilt u hebben?"));
+    if (bestelling == 'fris' || bestelling == 'bier' || bestelling == 'wijn'){
+        let aantal = parseInt(prompt("Hoeveel " + bestelling + " wilt u hebben?"));
 
-        bonnetje['drankjes'] = drankjes;
+        bonnetje['drankjes'] = bestelling;
         bonnetje['aantal'] = aantal;
         bonnetje['prijs'] = 2.99;
         console.log(bonnetje);
     }
 
-    else if (drankjes == 'stop'){
+    else if (bestelling == 'stop'){
         break
     }
     else {
