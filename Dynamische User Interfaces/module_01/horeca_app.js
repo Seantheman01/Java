@@ -1,8 +1,4 @@
-bestel_lijst = [
-    {drankjes: 'fris', prijs: 2.99},
-    {drankjes: 'bier', prijs: 2.99},
-    {drankjes: 'wijn', prijs: 2.99}
-];
+bestel_lijst = [];
 let bonnetje = new Object();
 
 while(true){
