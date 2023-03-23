@@ -14,7 +14,7 @@ let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 
     }
 
     else if (bestelling == 'stop'){
-        break
+        break;
     }
     else {
         alert("Kies uit fris, bier of wijn, alstublieft.");
