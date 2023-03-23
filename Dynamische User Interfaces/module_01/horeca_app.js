@@ -3,7 +3,7 @@ let bonnetje = new Object();
 
 while(true){
 let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
-
+    bestel_lijst.push(bestelling)
     if (bestelling == 'fris' || bestelling == 'bier' || bestelling == 'wijn'){
         let aantal = parseInt(prompt("Hoeveel " + bestelling + " wilt u hebben?"));
 
