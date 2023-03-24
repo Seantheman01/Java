@@ -1,19 +1,26 @@
-bestel_lijst = [];
+prijs_lijst = {
+    'fris': 1.99,
+    'bier': 2.99,
+    'wijn': 3.99,
+    'appelsal': 0.50
+};
 let bonnetje = new Object();
 
-while(true){
-let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
+while (true) {
+    let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 'stop' als u wilt stoppen): ");
 
-    if (bestelling == 'fris' || bestelling == 'bier' || bestelling == 'wijn'){
+    if (bestelling in prijs_lijst) {
         let aantal = parseInt(prompt("Hoeveel " + bestelling + " wilt u hebben?"));
+        if (!(bestelling in bonnetje)) {
+            bonnetje[bestelling] = aantal;
+        }else {
+            bonnetje[bestelling] += aantal;
 
-        bonnetje['drankjes'] = bestelling;
-        bonnetje['aantal'] = aantal;
-        bonnetje['prijs'] = 2.99;
+        }
         console.log(bonnetje);
     }
 
-    else if (bestelling == 'stop'){
+    else if (bestelling == 'stop') {
         break;
     }
     else {
@@ -21,3 +28,4 @@ let bestelling = prompt("Wat wilt u bestellen? Kies uit fris, bier of wijn (Typ 
     }
 }
 alert("Dank u wel voor uw bestelling!");
+// in de div app ga ik het bonnetje printen met de totaal prijzen
