@@ -14,7 +14,6 @@ while (true) {
             bonnetje[bestelling] = aantal;
         }else {
             bonnetje[bestelling] += aantal;
-
         }
         console.log(bonnetje);
     }
