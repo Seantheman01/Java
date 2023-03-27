@@ -27,5 +27,5 @@ while (true) {
 }
 alert("Dank u wel voor uw bestelling!");
 
-document.getElementById("app").innerHTML += bonnetje;
+document.getElementById("app").innerHTML = bonnetje;
 // in de div app ga ik het bonnetje printen met de totaal prijzen
