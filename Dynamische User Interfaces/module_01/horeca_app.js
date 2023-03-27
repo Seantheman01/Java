@@ -2,7 +2,6 @@ prijs_lijst = {
     'fris': 1.99,
     'bier': 2.99,
     'wijn': 3.99,
-    'appelsal': 0.50
 };
 let bonnetje = new Object();
 
@@ -28,4 +27,5 @@ while (true) {
     }
 }
 alert("Dank u wel voor uw bestelling!");
+
 // in de div app ga ik het bonnetje printen met de totaal prijzen
