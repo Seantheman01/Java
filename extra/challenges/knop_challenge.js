@@ -1,3 +1,3 @@
 var knop = document.createElement("button");
-knop.innerText= 'klik op mij!';
+knop.innerText= 'Klik!';
 document.body.appendChild(knop)
