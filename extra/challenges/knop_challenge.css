@@ -5,3 +5,7 @@ button {
     color: white;
     font-family: "Top Secret Stamp";
 }
+button:hover {
+    background-color: red;
+    text-decoration-line: underline;
+}
