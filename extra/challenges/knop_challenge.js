@@ -1,2 +1,2 @@
 var knop = document.createElement("button");
-document.getElementById("knop").innerHTML = knop;
+knop.innerText= 'klik op mij!';
