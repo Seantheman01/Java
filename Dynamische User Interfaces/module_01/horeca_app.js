@@ -27,5 +27,8 @@ while (true) {
 }
 alert("Dank u wel voor uw bestelling!");
 
-document.getElementById("app").innerHTML = bonnetje;
+for(let prijs in bonnetje){
+    totaal = parseInt(bonnetje[prijs] * prijs_lijst[prijs])
+}
+document.getElementById("app").innerHTML = totaal;
 // in de div app ga ik het bonnetje printen met de totaal prijzen
