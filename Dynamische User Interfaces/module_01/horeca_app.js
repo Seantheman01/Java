@@ -15,7 +15,6 @@ while (true) {
         }else {
             bonnetje[bestelling] += aantal;
         }
-        console.log(bonnetje);
     }
 
     else if (bestelling == 'stop') {
