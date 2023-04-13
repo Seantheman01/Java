@@ -30,5 +30,7 @@ for(let prijs in bonnetje){
     totaal = bonnetje[prijs] * prijs_lijst[prijs]
 };
 
-document.getElementById("bonnetje").innerHTML = bonnetje;
-document.getElementById("prijs").innerHTML = totaal;
+console.log(bonnetje)
+console.log(totaal)
+// document.getElementById("bonnetje").innerHTML = bonnetje;
+// document.getElementById("prijs").innerHTML = totaal;
