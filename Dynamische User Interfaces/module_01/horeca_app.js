@@ -24,11 +24,11 @@ while (true) {
     else {
         alert("Kies uit fris, bier of wijn, alstublieft.");
     }
-}
+};
 alert("Dank u wel voor uw bestelling!");
 
 for(let prijs in bonnetje){
     totaal = bonnetje[prijs] * prijs_lijst[prijs]
-}
+};
 
 document.getElementById("app").innerHTML = totaal;
