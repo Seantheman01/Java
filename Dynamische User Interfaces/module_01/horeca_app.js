@@ -28,7 +28,7 @@ while (true) {
 alert("Dank u wel voor uw bestelling!");
 
 for(let prijs in bonnetje){
-    totaal = parseInt(bonnetje[prijs] * prijs_lijst[prijs])
+    totaal = bonnetje[prijs] * prijs_lijst[prijs]
 }
 
 document.getElementById("app").innerHTML = totaal;
