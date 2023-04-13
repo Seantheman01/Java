@@ -28,7 +28,7 @@ alert("Dank u wel voor uw bestelling!");
 
 for(let drank in bonnetje){
     totaal = bonnetje[drank] * prijs_lijst[drank];
-    console.log(prijs_lijst[drank]);
+    console.log("Prijs: " + prijs_lijst[drank]);
 };
 console.log(bonnetje)
 console.log("Totaal: " + totaal)
