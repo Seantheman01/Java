@@ -31,4 +31,4 @@ for(let prijs in bonnetje){
 };
 
 console.log(bonnetje)
-console.log(totaal)
+console.log("Totaal: " + totaal)
