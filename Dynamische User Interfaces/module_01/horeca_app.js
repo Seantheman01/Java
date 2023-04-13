@@ -32,5 +32,3 @@ for(let prijs in bonnetje){
 
 console.log(bonnetje)
 console.log(totaal)
-// document.getElementById("bonnetje").innerHTML = bonnetje;
-// document.getElementById("prijs").innerHTML = totaal;
