@@ -26,8 +26,9 @@ while (true) {
 };
 alert("Dank u wel voor uw bestelling!");
 
-for(let prijs in bonnetje){
-    totaal = bonnetje[prijs] * prijs_lijst[prijs]
+for(let drank in bonnetje){
+    totaal = bonnetje[drank] * prijs_lijst[drank];
+    console.log(prijs_lijst[drank]);
 };
 
 console.log(bonnetje)
