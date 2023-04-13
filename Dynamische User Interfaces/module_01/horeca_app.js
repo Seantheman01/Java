@@ -30,4 +30,5 @@ for(let prijs in bonnetje){
     totaal = bonnetje[prijs] * prijs_lijst[prijs]
 };
 
-document.getElementById("app").innerHTML = totaal;
+document.getElementById("bonnetje").innerHTML = bonnetje;
+document.getElementById("prijs").innerHTML = totaal;
