@@ -24,7 +24,7 @@ while (true) {
         break;
     }
     else {
-        prompt("Kies uit fris, bier of wijn, alstublieft.");
+        alert("Kies uit fris, bier of wijn, alstublieft.");
     };
 };
 alert("Dank u wel voor uw bestelling!");
