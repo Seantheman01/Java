@@ -15,6 +15,9 @@ while (true) {
         }else {
             bonnetje[bestelling] += aantal;
         }
+        if(isNaN(aantal)) {
+            alert("Kies een aantal, alstublieft.");
+        }
     }
 
     else if (bestelling == 'stop') {
