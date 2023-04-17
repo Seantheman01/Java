@@ -14,10 +14,10 @@ while (true) {
             bonnetje[bestelling] = aantal;
         }else {
             bonnetje[bestelling] += aantal;
-        }
+        };
         if(isNaN(aantal)) {
             alert("Kies een aantal, alstublieft.");
-        }
+        };
     }
 
     else if (bestelling == 'stop') {
@@ -25,7 +25,7 @@ while (true) {
     }
     else {
         alert("Kies uit fris, bier of wijn, alstublieft.");
-    }
+    };
 };
 alert("Dank u wel voor uw bestelling!");
 
