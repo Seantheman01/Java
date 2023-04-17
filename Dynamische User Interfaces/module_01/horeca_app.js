@@ -11,7 +11,7 @@ while (true) {
     if (bestelling in prijs_lijst) {
         let aantal = parseInt(prompt("Hoeveel " + bestelling + " wilt u hebben?"));
         if(isNaN(aantal)) {
-            alert("Kies een aantal, alstublieft.");
+            parseInt(prompt("Kies een aantal, alstublieft."));
         }
         if (!(bestelling in bonnetje)) {
             bonnetje[bestelling] = aantal;
@@ -24,7 +24,7 @@ while (true) {
         break;
     }
     else {
-        alert("Kies uit fris, bier of wijn, alstublieft.");
+        prompt("Kies uit fris, bier of wijn, alstublieft.");
     };
 };
 alert("Dank u wel voor uw bestelling!");
