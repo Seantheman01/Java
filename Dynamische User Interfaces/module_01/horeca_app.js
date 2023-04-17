@@ -13,7 +13,7 @@ while (true) {
         if(isNaN(aantal)) {
             alert("Kies een aantal, alstublieft.");
         }
-        else if (!(bestelling in bonnetje)) {
+        if (!(bestelling in bonnetje)) {
             bonnetje[bestelling] = aantal;
         }else {
             bonnetje[bestelling] += aantal;
