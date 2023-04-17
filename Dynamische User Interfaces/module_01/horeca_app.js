@@ -12,12 +12,12 @@ while (true) {
         let aantal = parseInt(prompt("Hoeveel " + bestelling + " wilt u hebben?"));
         if(isNaN(aantal)) {
             alert("Kies een aantal, alstublieft.");
-        };
-        if (!(bestelling in bonnetje)) {
+        }
+        else if (!(bestelling in bonnetje)) {
             bonnetje[bestelling] = aantal;
         }else {
             bonnetje[bestelling] += aantal;
-        };
+        }
     }
 
     else if (bestelling == 'stop') {
