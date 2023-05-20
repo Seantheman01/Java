@@ -31,7 +31,11 @@ alert("Dank u wel voor uw bestelling!");
 
 for(let drank in bonnetje){
     totaal = bonnetje[drank] * prijs_lijst[drank];
-    console.log("Prijs: " + prijs_lijst[drank]);
+    // console.log("Prijs: " + prijs_lijst[drank]);
+    document.getElementById("prijs").innerHTML = "Prijs: " + prijs_lijst[drank];
 };
-console.log(bonnetje);
-console.log("Totaal: " + totaal);
+// console.log(bonnetje);
+// console.log("Totaal: " + totaal);
+
+document.getElementById("bonnetje").innerHTML = bonnetje;
+document.getElementById("prijs").innerHTML = "Totaal: " + totaal;
