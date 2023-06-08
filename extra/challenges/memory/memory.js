@@ -13,5 +13,4 @@ function shuffle(array) {
 
 let kaarten = document.createElement("img");
 kaarten.src = "D:/School/Software_developer/JavaScript/extra/challenges/memory/fotos/beer.jpg";
-
 document.body.appendChild(kaarten);
