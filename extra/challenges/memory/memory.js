@@ -13,7 +13,7 @@ function shuffle(array) {
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     let kaarten = document.createElement("img");
     kaarten.src = "fotos/" + plaatjes_lijst[x];
-    plaatjes.appendChild(kaarten);
+    plaatjes.appendChild(kaarten);   
 }
 
 let achterkant = document.createElement("div");
