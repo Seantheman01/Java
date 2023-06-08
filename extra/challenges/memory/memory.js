@@ -17,6 +17,7 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
     plaatjes.appendChild(kaarten);
     }
 }
+
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     let achterkant = document.createElement("div");
     achterkant.src = "fotos/background.jpg";
