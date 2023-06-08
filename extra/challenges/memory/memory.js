@@ -1,4 +1,4 @@
-dieren_lijst = shuffle(beer.jpg, buffel.jpg, hagedis.jpg, insect.jpg, kikker.jpg, rat.jpg, spin.jpg, tijger.jpg, vis.jpg, vogel.jpg);
+dieren_lijst = [beer.jpg, buffel.jpg, hagedis.jpg, insect.jpg, kikker.jpg, rat.jpg, spin.jpg, tijger.jpg, vis.jpg, vogel.jpg];
 
 function shuffleArray(array) {
     let currentIndex = array.lenght, randomIndex;
@@ -11,4 +11,4 @@ function shuffleArray(array) {
     return array;
 }
 
-document.write()
+document.getElementById("kaarten").innerHTML = dieren_lijst
