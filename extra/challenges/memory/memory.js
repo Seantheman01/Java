@@ -11,4 +11,4 @@ function shuffleArray(array) {
     return array;
 }
 
-document.write('<img source="fotos/beer.jpg">')
+document.write()
