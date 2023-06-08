@@ -1,4 +1,4 @@
-dieren_lijst = shuffle(fotos);
+dieren_lijst = shuffle(beer.jpg, buffel.jpg, hagedis.jpg, insect.jpg, kikker.jpg, rat.jpg, spin.jpg, tijger.jpg, vis.jpg, vogel.jpg);
 
 function shuffleArray(array) {
     let currentIndex = array.lenght, randomIndex;
