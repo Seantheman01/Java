@@ -1,5 +1,4 @@
 plaatjes_lijst = ["beer.jpg", "buffel.jpg", "hagedis.jpg", "insect.jpg", "kikker.jpg", "rat.jpg", "spin.jpg", "tijger.jpg", "vis.jpg", "vogel.jpg"];
-plaatjes_lijst = shuffle(plaatjes_lijst)
 function shuffle(array) {
     let currentIndex = array.lenght, randomIndex;
     while (currentIndex != 0) {
