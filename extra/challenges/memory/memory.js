@@ -11,9 +11,11 @@ function shuffle(array) {
 }
 
 for (let x = 0; x < plaatjes_lijst.length; x++) {
+    for (let y = 0; y < 2; y++) {
     let kaarten = document.createElement("img");
     kaarten.src = "fotos/" + plaatjes_lijst[x];
-    plaatjes.appendChild(kaarten);   
+    plaatjes.appendChild(kaarten);
+    }
 }
 
 let achterkant = document.createElement("div");
