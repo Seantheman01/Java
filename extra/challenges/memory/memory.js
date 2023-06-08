@@ -10,5 +10,34 @@ function shuffleArray(array) {
     }
     return array;
 }
+let foto1 = document.createElement("img");
+foto1.src = "fotos/beer.jpg";
 
-document.getElementById("kaarten").innerHTML = dieren_lijst
+let foto2 = document.createElement("img");
+foto2.src = "fotos/buffel.jpg";
+
+let foto3 = document.createElement("img");
+foto3.src = "fotos/hagedis.jpg";
+
+let foto4 = document.createElement("img");
+foto4.src = "fotos/insect.jpg";
+
+let foto5 = document.createElement("img");
+foto5.src = "fotos/kikker.jpg";
+
+let foto6 = document.createElement("img");
+foto6.src = "fotos/rat.jpg";
+
+let foto7 = document.createElement("img");
+foto7.src = "fotos/spin.jpg";
+
+let fotos8 = document.createElement("img");
+fotos8.src = "fotos/tijger.jpg";
+
+let fotos9 = document.createElement("img");
+fotos9.src = "fotos/vis.jpg";
+
+let fotos10 = document.createElement("img");
+fotos10.src = "fotos/vogel.png";
+
+document.getElementById("kaarten").innerHTML = beer.jpg
