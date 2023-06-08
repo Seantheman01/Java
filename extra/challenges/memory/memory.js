@@ -10,8 +10,9 @@ function shuffle(array) {
     return array;
 }
 
-for (let x = 0; x < 21; x++) {
+for (let x = 0; x < plaatjes_lijst.length; x++) {
     let kaarten = document.createElement("img");
-    kaarten.src = "fotos/" + plaatjes_lijst[0];
-    document.body.appendChild(kaarten);
+    kaarten.src = "fotos/" + plaatjes_lijst[x];
+    plaatjes.appendChild(kaarten);
 }
+
