@@ -1,4 +1,4 @@
-plaatjes_lijst = shuffle["beer.jpg", "buffel.jpg", "hagedis.jpg", "insect.jpg", "kikker.jpg", "rat.jpg", "spin.jpg", "tijger.jpg", "vis.jpg", "vogel.jpg"];
+plaatjes_lijst = ["beer.jpg", "buffel.jpg", "hagedis.jpg", "insect.jpg", "kikker.jpg", "rat.jpg", "spin.jpg", "tijger.jpg", "vis.jpg", "vogel.jpg"];
 
 function shuffle(array) {
     let currentIndex = array.lenght, randomIndex;
@@ -12,5 +12,5 @@ function shuffle(array) {
 }
 
 let kaarten = document.createElement("img");
-kaarten.src = plaatjes_lijst
+kaarten.src = "fotos/" + plaatjes_lijst[0];
 document.body.appendChild(kaarten);
