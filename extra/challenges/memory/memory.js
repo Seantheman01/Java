@@ -12,9 +12,9 @@ function shuffle(array) {
 
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     for (let y = 0; y < 2; y++) {
-        let kaarten = document.createElement("img");
-        kaarten.src = "fotos/" + plaatjes_lijst[x];
-        plaatjes.appendChild(kaarten);
+        let plaatjes = document.createElement("img");
+        plaatjes.src = "fotos/" + plaatjes_lijst[x];
+        kaarten.appendChild(plaatjes);
     }
 }
 
