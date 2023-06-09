@@ -28,5 +28,5 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
 
 function klikken(a) {
     a.src = a.plaatje;
-    console.log(a);
+    console.dir(a);
 }
