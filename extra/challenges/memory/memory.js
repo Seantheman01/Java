@@ -12,11 +12,11 @@ function shuffle(array) {
 
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     for (let y = 0; y < 2; y++) {
-        let kaart = document.createElement("img");
-        kaart.plaatje = "fotos/" + plaatjes_lijst[x];
-        kaart.src = "fotos/background.jpg";
-        kaart.setAttribute("onclick", "klikken(this)");
-        document.body.appendChild(kaart);
+        let kaartje = document.createElement("img");
+        kaartje.plaatje = "fotos/" + plaatjes_lijst[x];
+        kaartje.src = "fotos/background.jpg";
+        kaartje.setAttribute("onclick", "klikken(this)");
+        document.body.appendChild(kaartje);
     }
 }
 
