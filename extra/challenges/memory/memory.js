@@ -25,5 +25,5 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
 }
 
 function klikken() {
-    console.log("Er is geklikt!")
+    console.log("Er is geklikt!");
 }
