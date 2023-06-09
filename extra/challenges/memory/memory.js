@@ -12,10 +12,11 @@ function shuffle(array) {
 
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     for (let y = 0; y < 2; y++) {
-        let plaatjes = document.createElement("img");
-        plaatjes.src = "fotos/" + plaatjes_lijst[x];
-        plaatjes.src = "fotos/background.jpg";
-        kaarten.appendChild(plaatjes);
+        let kaart = document.createElement("img");
+        kaart.plaatje = "fotos/" + plaatjes_lijst[x];
+        kaart.src = "fotos/background.jpg";
+        kaart.setAttribute("onclick", "klikken(this)");
+        document.body.appendChild(kaart);
     }
 }
 
@@ -25,7 +26,7 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
 //     document.body.appendChild(achterkant);
 // }
 
-function klikken(x) {
-    console.log("Er is geklikt!");
-    console.log(x)
+function klikken(a) {
+    a.src = a.plaatje;
+    console.log(a);
 }
