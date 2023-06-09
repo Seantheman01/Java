@@ -24,3 +24,8 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
 //     achterkant.src = "fotos/background.jpg";
 //     document.body.appendChild(achterkant);
 // }
+
+function klikken(x) {
+    console.log("Er is geklikt!");
+    console.log(x)
+}
