@@ -14,16 +14,13 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
     for (let y = 0; y < 2; y++) {
         let plaatjes = document.createElement("img");
         plaatjes.src = "fotos/" + plaatjes_lijst[x];
+        plaatjes.src = "fotos/background.jpg";
         kaarten.appendChild(plaatjes);
     }
 }
 
-for (let x = 0; x < plaatjes_lijst.length; x++) {
-    let achterkant = document.createElement("div");
-    achterkant.src = "fotos/background.jpg";
-    document.body.appendChild(achterkant);
-}
-
-function klikken() {
-    console.log("Er is geklikt!");
-}
+// for (let x = 0; x < plaatjes_lijst.length; x++) {
+//     let achterkant = document.createElement("div");
+//     achterkant.src = "fotos/background.jpg";
+//     document.body.appendChild(achterkant);
+// }
