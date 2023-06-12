@@ -23,6 +23,11 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
     }
 }
 
+function omdraaien_tijd(){
+    clicked[0].src = "fotos/background.jpg";
+    clicked[1].src = "fotos/background.jpg";
+}
+
 function klikken(a) {
     a.src = a.plaatje;
     console.dir(a);
@@ -32,6 +37,8 @@ function klikken(a) {
     if (clicked.length === 2) {
         if (clicked[0].plaatje === clicked[1].plaatje) {
             alert("Je hebt 2 dezelfde plaatjes geklikt!");
-        };
+        } else {
+            setTimeout(omdraaien_tijd, 500);
+        }
     }
 }
