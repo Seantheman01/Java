@@ -1,4 +1,6 @@
 plaatjes_lijst = ["beer.jpg", "buffel.jpg", "hagedis.jpg", "insect.jpg", "kikker.jpg", "rat.jpg", "spin.jpg", "tijger.jpg", "vis.jpg", "vogel.jpg"];
+let clicked = [];
+
 function shuffle(array) {
     let currentIndex = array.lenght, randomIndex;
     while (currentIndex != 0) {
@@ -9,6 +11,7 @@ function shuffle(array) {
     }
     return array;
 }
+
 
 for (let x = 0; x < plaatjes_lijst.length; x++) {
     for (let y = 0; y < 2; y++) {
@@ -23,4 +26,12 @@ for (let x = 0; x < plaatjes_lijst.length; x++) {
 function klikken(a) {
     a.src = a.plaatje;
     console.dir(a);
+    clicked.push(a);
+    console.log(clicked);
+
+    if (clicked.length === 2) {
+        if (clicked[0].plaatje === clicked[1].plaatje) {
+            alert("Je hebt 2 dezelfde plaatjes geklikt!");
+        };
+    }
 }
