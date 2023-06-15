@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="plaatje"></img>
-    <button id="terug">previous</button>
-    <button id="verder">next</button>
+    <div>
+    <img id="plaatje" src="fotos/leeuw.jpg"></img>
+    </div>
+
+    <div id = 'button'>
+    <button type = button onclick="terug_knop(this)">Previous</button>
+    <button type = button onclick="verder_knop(this)">Next</button>
+    </div>
     
     <script src="image_gallery.js"></script>
 </body>
