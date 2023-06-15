@@ -1,5 +1,17 @@
-plaatjes = ['leeuw.jpg', 'zebra.jpg', 'giraf.jpg']
+plaatjes_lijst = ['fotos/leeuw.jpg', 'fotos/zebra.jpg', 'fotos/giraf.jpg']
 
-function maken_knop() {
-   document.getElementById("button");
+function terug_knop() { 
+    
+}
+function vooruit_knop() {
+    
+}
+
+plaatje.src = plaatjes_lijst[0];
+
+if (onclick == 'terug') {
+   
+}
+else if (onclick == 'verder') {
+    
 }
