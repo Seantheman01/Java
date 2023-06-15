@@ -1,3 +1,3 @@
 function maken_knop() {
-    var button = document.getElementById("button");
+    document.getElementById("button");
 }
