@@ -17,15 +17,25 @@
         //Eigen acties
         spaceShip.run(function () {
             // code  start
-            var a = 7
-            for (let x = 0; x < 9; x++) {
-                spaceShip.moveForward();
-                for (let y = 0; y < a; y++) {
+
+            // var a = 7
+            // for (let x = 0; x < 9; x++) {
+            //     spaceShip.moveForward();
+            //     for (let y = 0; y < a; y++) {
+            //         spaceShip.moveForward();
+            //     }
+            //     spaceShip.rotateLeft();
+            //     a--
+            // }
+            
+            for (let y = 8; y > 0; y--) {
+                for (let x = 0; x < y; x++) {
                     spaceShip.moveForward();
                 }
+                
                 spaceShip.rotateLeft();
-                a--
             }
+            spaceShip.moveForward();
             // code  einde
         });
     </script>

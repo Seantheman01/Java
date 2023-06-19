@@ -15,6 +15,6 @@ if (gewenste_aantal_autos > 0){
 }
 
 console.log(aantal_verdiepingen)
-
+// to do: afronden
 let antwoord = "Om het gewenste aantal autos kwijt te kunnen heb je " + aantal_verdiepingen + " verdiepingen nodig."
 document.getElementById("antwoord").innerText = antwoord;
