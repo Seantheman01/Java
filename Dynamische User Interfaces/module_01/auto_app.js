@@ -13,7 +13,7 @@ if (!(deuren == '2' || deuren == '4')) {
 
 }else {
     if (deuren == '4') {
-        auto_lijst[standaard_prijs] + 1000;
+        
     }
 }
 
