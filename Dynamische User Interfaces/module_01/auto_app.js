@@ -18,7 +18,7 @@ if (!(deuren == '2' || deuren == '4')) {
 }
 
 let kleuren = prompt("Welke kleur wilt u de auto hebben? ");
-if (kleuren == 'rood' || kleuren == 'blauw'){
+if (kleuren == 'rood' || kleuren == 'blauw') {
     auto_lijst.standaard_prijs += 500;
 }
 else if (!(kleuren == 'wit' || kleuren == 'rood' || kleuren == 'blauw')) {
