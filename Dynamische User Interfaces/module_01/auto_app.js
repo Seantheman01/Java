@@ -19,4 +19,4 @@ if (!(deuren == '2' || deuren == '4')) {
 
 console.log(auto_lijst);
 
-// let kleuren = prompt("Welke kleur wilt u de auto hebben? ");
+let kleuren = prompt("Welke kleur wilt u de auto hebben? ");
