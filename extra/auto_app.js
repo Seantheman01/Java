@@ -17,10 +17,14 @@ if (!(deuren == '2' || deuren == '4')) {
     }
 }
 
-let kleuren = prompt("Welke kleur wilt u de auto hebben? ");
-if (kleuren == 'rood' || kleuren == 'blauw') {
+let kleur = prompt("Welke kleur wilt u de auto hebben? ");
+if (kleur == 'rood' || kleur == 'blauw') {
     auto_lijst.standaard_prijs += 500;
 }
-else if (!(kleuren == 'wit' || kleuren == 'rood' || kleuren == 'blauw')) {
+else if (!(kleur == 'wit' || kleur == 'rood' || kleur == 'blauw')) {
     auto_lijst.standaard_prijs += 1500;
 }
+
+alert("Deuren: " + deuren);
+alert("Kleur: " + kleur);
+alert("Prijs: " + auto_lijst.standaard_prijs + " euro");
