@@ -9,12 +9,10 @@ auto_lijst = {
 
 let deuren = parseInt(prompt("Hoeveel deuren wilt u dat de auto heeft? (Kies uit 2 of 4 deuren) "));
 if (!(deuren == '2' || deuren == '4')) {
-    alert("Kies uit 2 of 4 deuren.")
-
-}else {
-    if (deuren == '4') {
-        auto_lijst.standaard_prijs += 1000;
-    }
+    alert("Kies uit 2 of 4 deuren.");
+}
+else if (deuren == '4') {
+    auto_lijst.standaard_prijs += 1000;
 }
 
 let kleur = prompt("Welke kleur wilt u de auto hebben? ");
