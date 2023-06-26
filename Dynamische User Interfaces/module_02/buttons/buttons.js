@@ -1,9 +1,15 @@
 function knop1() {
-    document.getElementById("button").innerHTML = "Je hebt button1 aangeklikt!";
+    var x = document.createElement("img");
+    x.setAttribute("src", "images/0.jpg");
+    document.body.appendChild(x);
 }
 function knop2() {
-    document.getElementById("button").innerHTML = "Je hebt button2 aangeklikt!";
+    var x = document.createElement("img");
+    x.setAttribute("src", "images/1.jpg");
+    document.body.appendChild(x);
 }
 function knop3() {
-    document.getElementById("button").innerHTML = "Je hebt button3 aangeklikt!";
+    var x = document.createElement("img");
+    x.setAttribute("src", "images/2.jpg");
+    document.body.appendChild(x);
 }
