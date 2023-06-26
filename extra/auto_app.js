@@ -7,12 +7,15 @@ auto_lijst = {
     'standaard_prijs': 10000
 };
 
-let deuren = parseInt(prompt("Hoeveel deuren wilt u dat de auto heeft? (Kies uit 2 of 4 deuren) "));
-if (!(deuren == '2' || deuren == '4')) {
-    alert("Kies uit 2 of 4 deuren.");
-}
-else if (deuren == '4') {
-    auto_lijst.standaard_prijs += 1000;
+while (true) {
+    let deuren = parseInt(prompt("Hoeveel deuren wilt u dat de auto heeft? (Kies uit 2 of 4 deuren) "));
+    if (!(deuren == '2' || deuren == '4')) {
+        alert("Kies uit 2 of 4 deuren.");
+    }
+    else if (deuren == '4') {
+        auto_lijst.standaard_prijs += 1000;
+        break
+    }
 }
 
 let kleur = prompt("Welke kleur wilt u de auto hebben? ");
