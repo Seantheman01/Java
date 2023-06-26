@@ -1,15 +1,5 @@
+const plaatjes_lijst = ['0.jpg', '1.jpg', '2.jpg', '3.jpg', 'bg0.jpg', 'bg1.jpg', 'bg2.jp', 'bg3.jpg']
+
 function knop1() {
-    var x = document.createElement("img");
-    x.setAttribute("src", "images/0.jpg");
-    document.body.appendChild(x);
-}
-function knop2() {
-    var x = document.createElement("img");
-    x.setAttribute("src", "images/1.jpg");
-    document.body.appendChild(x);
-}
-function knop3() {
-    var x = document.createElement("img");
-    x.setAttribute("src", "images/2.jpg");
-    document.body.appendChild(x);
+    
 }
