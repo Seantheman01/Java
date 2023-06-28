@@ -3,3 +3,11 @@
 function knop1() {
     plaatje.src = "images/1.jpg"
 }
+
+function knop2() {
+    plaatje.src = "images/2.jpg"
+}
+
+function knop3() {
+    plaatje.src = "images/3.jpg"
+}
