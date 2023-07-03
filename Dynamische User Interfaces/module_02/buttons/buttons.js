@@ -1,4 +1,5 @@
-const plaatjes_lijst = ['0.jpg', '1.jpg', '2.jpg', '3.jpg', 'bg0.jpg', 'bg1.jpg', 'bg2.jp', 'bg3.jpg']
+const grote_plaatjes = ['bg0.jpg', 'bg1.jpg', 'bg2.jp', 'bg3.jpg']
+const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg']
 
 // function knop1() {
 //     groot_plaatje.src = "images/bg1.jpg"
@@ -15,7 +16,12 @@ const plaatjes_lijst = ['0.jpg', '1.jpg', '2.jpg', '3.jpg', 'bg0.jpg', 'bg1.jpg'
 //     plaatje.src = "images/3.jpg"
 // }
 
-function knop_maken() {
+function groot_getal() {
     let plaatje = document.createElement("img");
-    plaatje.src = "images/" + plaatjes_lijst
+    plaatje.src = "images/" + grote_plaatjes;
+}
+
+function klein_getal() {
+    let plaatje = document.createElement("img");
+    plaatje.src = "images/" + kleine_plaatjes;
 }
