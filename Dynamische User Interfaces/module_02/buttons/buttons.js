@@ -23,7 +23,7 @@ function groot_getal() {
 }
 
 function klein_getal() {
-    let plaatje = document.createElement("img");
-    plaatje.src = "images/" + kleine_plaatjes[0];
+    let afbeelding = document.createElement("img");
+    afbeelding.src = "images/" + kleine_plaatjes[0];
     console.log(afbeelding);
 }
