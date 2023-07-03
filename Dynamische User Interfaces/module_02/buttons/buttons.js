@@ -4,6 +4,7 @@ const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 function knop1() {
     groot_plaatje.src = "images/bg1.jpg"
     klein_plaatje.src = "images/1.jpg"
+    document.getElementById("kleur").style.backgroundColor = "red";
 }
 
 function knop2() {
