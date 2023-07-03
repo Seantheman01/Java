@@ -18,10 +18,10 @@ const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 
 function groot_getal() {
     let plaatje = document.createElement("img");
-    plaatje.src = "images/" + grote_plaatjes;
+    plaatje.src = "images/" + grote_plaatjes[0];
 }
 
 function klein_getal() {
     let plaatje = document.createElement("img");
-    plaatje.src = "images/" + kleine_plaatjes;
+    plaatje.src = "images/" + kleine_plaatjes[0];
 }
