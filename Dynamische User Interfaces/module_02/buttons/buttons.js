@@ -3,17 +3,17 @@ const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 
 function knop1() {
     groot_plaatje.src = "images/bg1.jpg"
-    plaatje.src = "images/1.jpg"
+    klein_plaatje.src = "images/1.jpg"
 }
 
 function knop2() {
     groot_plaatje.src = "images/bg2.jpg"
-    plaatje.src = "images/2.jpg"
+    klein_plaatje.src = "images/2.jpg"
 }
 
 function knop3() {
     groot_plaatje.src = "images/bg3.jpg"
-    plaatje.src = "images/3.jpg"
+    klein_plaatje.src = "images/3.jpg"
 }
 
 // function maken_button() {
