@@ -1,5 +1,5 @@
-const grote_plaatjes = ['bg0.jpg', 'bg1.jpg', 'bg2.jp', 'bg3.jpg']
-const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg']
+const grote_plaatjes = ['bg0.jpg', 'bg1.jpg', 'bg2.jp', 'bg3.jpg'];
+const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 
 // function knop1() {
 //     groot_plaatje.src = "images/bg1.jpg"

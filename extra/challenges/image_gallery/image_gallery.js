@@ -1,4 +1,4 @@
-const plaatjes_lijst = ['fotos/leeuw.jpg', 'fotos/zebra.jpg', 'fotos/giraf.jpg']
+const plaatjes_lijst = ['fotos/leeuw.jpg', 'fotos/zebra.jpg', 'fotos/giraf.jpg'];
 let getal = 0;
 
 function verder_knop() {
