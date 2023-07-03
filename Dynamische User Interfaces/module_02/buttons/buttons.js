@@ -17,8 +17,8 @@ const kleine_plaatjes = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 // }
 
 function groot_getal() {
-    let plaatje = document.createElement("img");
-    plaatje.src = "images/" + grote_plaatjes[0];
+    var afbeelding = document.createElement("img");
+    afbeelding.src = "images/" + grote_plaatjes[0];
 }
 
 function klein_getal() {
