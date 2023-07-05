@@ -19,9 +19,11 @@ function knop3() {
     document.getElementById("kleur3").style.backgroundColor = "green";
 }
 
-// function maken_button() {
-//     plaatje = document.getElementById("groot_plaatje");
-//     plaatje.src = "images/" + grote_plaatjes[1];
-//     plaatje = document.getElementById("klein_plaatje");
-//     plaatje.src = "images/" + kleine_plaatjes[1];
+// function maken_button(e) {
+//     for(let i = 0; i < e; i++){
+//         plaatje = document.getElementById("groot_plaatje");
+//         plaatje.src = "images/" + grote_plaatjes[0];
+//         plaatje = document.getElementById("klein_plaatje");
+//         plaatje.src = "images/" + kleine_plaatjes[0];
+//     }
 // }
